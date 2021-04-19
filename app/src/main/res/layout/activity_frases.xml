@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/azul_escuro"
+    tools:context=".FrasesActivity">
+
+    <Button
+        android:id="@+id/btnGerarFraseNerd"
+        android:text="Gerar Frase Nerd"
+        android:layout_marginTop="64dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#1B6067"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:id="@+id/txtFraseNerd"
+        android:layout_marginTop="32dp"
+        android:textColor="#1B6067"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sua frase aqui"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnGerarFraseMotivacional"
+        android:text="Gerar Frase Motivacional"
+        android:layout_marginTop="64dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#1B6067"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:id="@+id/txtFraseMotivacional"
+        android:layout_marginTop="32dp"
+        android:textColor="#1B6067"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sua frase aqui"/>
+
+</LinearLayout>
